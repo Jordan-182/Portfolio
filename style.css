@@ -1,0 +1,133 @@
+/* Color palette : light to dark
+1- #D8F3DC
+2- #B7E4C7
+3- #95D5B2
+4- #74C69D
+5- #52B788
+6- #40916C
+7- #2D6A4F
+8- #1B4332
+9- #081C15
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    background: linear-gradient(to bottom , #081c15 , #1B4332);
+    height: 100vh;
+    color: #fff;
+}
+
+header{
+    padding: 0px 400px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    height: auto;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li{
+    transition: 0.3s cubic-bezier(.5,1.87,.62,.42);
+}
+
+nav ul li:hover{
+    transform: translateY(-8px);
+}
+
+nav ul li a{
+    color: #fff;
+    font-weight: 500;
+}
+
+.index-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+.avatar{
+    display: flex;
+    background: #D8F3DC;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    cursor: pointer;
+    transition: 0.6s cubic-bezier(.5,1.87,.62,.42);
+}
+
+.avatar:hover{
+    transform: rotate(360deg);
+}
+
+.bio{
+    font-size: 16px;
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bio h4{
+    font-size: 24px;
+    color: #B7E4C7;
+}
+
+.name{
+    font-size: 42px;
+    font-weight: 700;
+    background: linear-gradient(to right , #40916C , #74C69D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn{
+    display: flex;
+    background: linear-gradient(to bottom , #40916C , #74C69D);
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s cubic-bezier(.5,1.87,.62,.42);
+}
+
+.btn:hover{
+    transform: translateY(-8px);
+    background: transparent;
+    color: #D8F3DC;
+    border: 2px solid #D8F3DC;
+}
+
+footer a{
+    color: #081c15;
+    font-weight: 600;
+}
