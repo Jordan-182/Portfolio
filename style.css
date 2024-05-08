@@ -71,7 +71,7 @@ nav ul li a{
     align-items: center;
     max-width: 50%;
     cursor: pointer;
-    transition: 0.6s cubic-bezier(.5,1.87,.62,.42);
+    transition: 1s cubic-bezier(.31,1.95,.59,.53);
 }
 
 .avatar:hover{
