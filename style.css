@@ -141,6 +141,28 @@ nav{
     font-size: 16px;
 }
 
+.about-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 50px 0 50px;
+}
+
+.about-main h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #74C69D;
+}
+
+.about-main p{
+    text-align: center;
+}
+
+.about-main p:nth-child(2n+1){
+    color: #D8F3DC;
+}
+
 footer{
     display: flex;
     justify-content: center;
