@@ -31,7 +31,6 @@ body{
 header{
     width: 100%;
     height: 55px;
-    background: rgba(0, 0, 0, 0.2);
 }
 
 nav{
@@ -40,7 +39,7 @@ nav{
     display: flex;
     align-items: center;
     padding: 15px 25px;
-    background: rgba(0, 0, 0, 0.2);
+    background: #081c15;
     box-shadow: inset 0px -1px 0px #74C69D;
 }
 
@@ -160,6 +159,66 @@ nav{
 }
 
 .about-main p:nth-child(2n+1){
+    color: #D8F3DC;
+}
+
+.projects-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-main h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #74C69D;
+    margin-top: 30px;
+}
+
+.projects-main p{
+    text-align: center;
+    margin: 0 20px 10px 30px;
+}
+
+.project-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-card:nth-child(odd){
+    background: #fff;
+    color: #081c15;
+    height: 300px;
+}
+
+.project-card:nth-child(even){
+    background: #1B4332;
+    color: #fff;
+    height: 300px;
+    width: 100%;
+}
+
+.project-title{
+    text-align: center;
+    margin: auto 0;
+}
+
+.project-title h4{
+    margin-bottom: 10px;
+}
+
+.project-bio:nth-child(even),
+.project-title:nth-child(odd){
+    text-align: center;
+    margin: auto 0;
+    color: #081c15;
+}
+
+.project-bio:nth-child(odd),
+.project-title:nth-child(even){
+    text-align: center;
+    margin: auto 0;
     color: #D8F3DC;
 }
 
