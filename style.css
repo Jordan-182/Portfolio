@@ -262,6 +262,13 @@ nav{
     transform: scale(1.1);
 }
 
+.project-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -533,6 +540,13 @@ footer a{
     .avatar img{
         height: 150px;
         width: 150px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .project-links{
+        flex-direction: column;
+        gap: 0;
     }
 }
 
