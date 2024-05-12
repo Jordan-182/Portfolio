@@ -114,6 +114,12 @@ nav{
 .avatar img{
     height: 250px;
     width: 250px;
+    transition: transform 1.3s cubic-bezier(.5,1.87,.62,.42);
+    cursor: pointer;
+}
+
+.avatar img:hover{
+    transform: rotate(360deg);
 }
 
 .bio{
