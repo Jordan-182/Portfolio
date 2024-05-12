@@ -42,6 +42,7 @@ nav{
     padding: 15px 25px;
     background: #081c15;
     box-shadow: inset 0px -1px 0px #74C69D;
+    z-index: 9;
 }
 
 .nav-icon{
